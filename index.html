@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raziel Jade Baldoza | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <div class="mesh-bg" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <header class="header">
+    <p class="logo">RJB</p>
+    <button class="menu-btn" type="button" aria-label="Open menu">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero reveal is-visible">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <p class="hero-watermark" aria-hidden="true">IT</p>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="hello">Hello — I'm</p>
+          <h1>Raziel Jade <span class="name-accent">Baldoza</span></h1>
+          <p class="tagline">BS Information Technology · <em>Graduating Student</em></p>
+          <a href="#contact" class="btn magnetic"><span class="btn-text">Get in touch</span></a>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-stack" id="photoTilt">
+            <div class="blob blob-a"></div>
+            <div class="blob blob-b"></div>
+            <div class="photo-frame">
+              <img src="assets/profile.png" alt="Raziel Jade Baldoza" width="280" height="280">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="block reveal">
+      <header class="block-head">
+        <span class="block-num cherry">01</span>
+        <h2>About Me</h2>
+      </header>
+      <p class="block-text">
+        I'm Raziel Jade Baldoza, a graduating student taking up Bachelor of Science in Information Technology.
+        I enjoy learning how technology solves real problems and I'm building my path in the IT field with curiosity
+        and dedication.
+      </p>
+    </section>
+
+    <section id="education" class="block block-band reveal">
+      <header class="block-head">
+        <span class="block-num coral">02</span>
+        <h2>Education</h2>
+      </header>
+      <div class="card card-edu tilt-card">
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p>Undergraduate · Currently completing my degree</p>
+        <p class="small">Focused on systems, software basics, and practical IT skills for the workplace.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="block reveal">
+      <header class="block-head">
+        <span class="block-num rose">03</span>
+        <h2>Skills</h2>
+      </header>
+      <div class="skill-pills">
+        <button type="button" class="pill p-scarlet">HTML &amp; CSS</button>
+        <button type="button" class="pill p-cherry">JavaScript</button>
+        <button type="button" class="pill p-coral">Flutter</button>
+        <button type="button" class="pill p-tomato">PHP</button>
+        <!-- <button type="button" class="pill p-rose">Cisco Packet Tracer</button> -->
+      </div>
+    </section>
+
+    <section id="contact" class="block block-contact reveal">
+      <header class="block-head block-head-light">
+        <span class="block-num light">04</span>
+        <h2>Contact</h2>
+      </header>
+      <p class="contact-intro">Want to connect? </p>
+      <ul class="contact-list">
+        <li><a href="mailto:your.email@example.com">raziel.jadeu4@gmail.com</a></li>
+        <li><a href="https://github.com/razzibazzi" target="_blank" rel="noopener noreferrer">github.com/razzibazzi</a></li>
+        <li><a href="https://linkedin.com/in/razieljadebaldoza/" target="_blank" rel="noopener noreferrer">linkedin.com/in/razieljadebaldoza/</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer reveal">
+    <p>&copy; <span id="year"></span> Raziel Jade Baldoza. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
