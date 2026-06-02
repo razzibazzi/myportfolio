@@ -21,7 +21,7 @@
     }
   }
 
-  /* Custom cursor (mouse only) */
+  /* Custom cursor (mouse only bruh) */
   var dot = document.querySelector(".cursor-dot");
   var ring = document.querySelector(".cursor-ring");
   var prefersCoarse = window.matchMedia("(pointer: coarse)").matches;

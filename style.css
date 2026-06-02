@@ -1,4 +1,4 @@
-/* One portfolio theme — dark glass, red spectrum, interactive-friendly */
+
 
 :root {
   --bg-deep: #070508;
@@ -32,7 +32,7 @@ body.page {
   cursor: none;
 }
 
-/* Animated mesh + grain */
+/* Animated mesh + grain ????? basta kana*/
 .mesh-bg {
   position: fixed;
   inset: 0;
@@ -557,7 +557,7 @@ button {
 
 .block-contact .block-head,
 .block-contact .contact-intro,
-.block-contact .contact-list {
+.block-contact .contact-links {
   position: relative;
   max-width: 760px;
   margin-left: auto;
@@ -577,19 +577,48 @@ button {
   color: #ffd0d8;
 }
 
-.contact-list {
+.contact-links {
   list-style: none;
-  position: relative;
+  margin: 0;
+  padding: 1.1rem 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(0, 0, 0, 0.28);
 }
 
-.contact-list li {
-  padding: 0.85rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  font-weight: 500;
+.contact-links li {
+  margin: 0;
+  padding: 0;
 }
 
-.contact-list li:last-child {
-  border-bottom: none;
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffd0d8;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  word-break: break-word;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-link:hover {
+  color: #fff;
+  background: rgba(255, 50, 80, 0.12);
+  border-color: rgba(255, 160, 170, 0.35);
+}
+
+.contact-link .contact-icon {
+  flex-shrink: 0;
+  opacity: 0.95;
 }
 
 .footer {
